@@ -160,9 +160,10 @@
     <body>
         <header>
         <div class="header">
-                <button id="index" class="title" class="btn_l"
+        <button id="index" class="title" class="btn_l"
                 onclick="SendCart(id)" type="submit" form="frm_cart"
-                style="padding-top: 18px;">
+                style="padding-top: 18px; margin-left: -12%">
+                <img src="media/title_icon.svg" height="5%" width="5%" style="padding-right: -10%"/>
                 <i><b>GAMERMEL[]N</b></i></a></button>
             <div class="btn_r">
             <button id="games" onclick="SendCart(id)" type="submit" form="frm_cart" style="padding-top: 18px;">Games</button>
@@ -205,9 +206,9 @@
                 <form id="login_system" method="POST">
                 <input type="hidden" name="hidden_login" id="hidden_login" value="">
                 <label for="userL_input">Username:</label>
-                <input type="text" name="userL_input" id="userL_input" style="vertical-align: middle;"><br><br>
+                <input type="text" name="userL_input" id="userL_input" style="vertical-align: middle;" required><br><br>
                 <label for="passL_input">Password:</label>
-                <input type="password" name="passL_input" id="passL_input" style="vertical-align: middle;"><br><br><br>
+                <input type="password" name="passL_input" id="passL_input" style="vertical-align: middle;" required><br><br><br>
                 <div id="coming_soon" style="color: yellow; transform: rotate(-45deg); z-index: 150; font-size: 50px; background-color: rgb(165, 2, 37);">
                     COMING SOON!
                 </div>
@@ -219,11 +220,11 @@
                 margin-left: 12%; margin-right: 12%;">REGISTER</div><br><br>
                 <form id="register_system" method="POST" action="/login.php">
                 <label for="userR_input">Username:</label>
-                <input type="text" name="userR_input" id="userR_input" style="vertical-align: middle;"><br><br>
+                <input type="text" name="userR_input" id="userR_input" style="vertical-align: middle;" required><br><br>
                 <label for="emailR_input">E-mail:</label>
-                <input type="email" name="emailR_input" id="emailR_input" style="vertical-align: middle;"><br><br>
+                <input type="email" name="emailR_input" id="emailR_input" style="vertical-align: middle;" required><br><br>
                 <label for="passR_input">Password:</label>
-                <input type="password" name="passR_input" id="passR_input" style="vertical-align: middle;"><br><br><br>
+                <input type="password" name="passR_input" id="passR_input" style="vertical-align: middle;" required><br><br><br>
                 <div align="center"><button name="register_submit" id="register_submit" style="cursor: pointer;" onclick="buttonPHP_R()">Register</button></div><br>
             </form>  
             &nbsp;&nbsp;&nbsp;<font color="yellow">Save your username now! </font>   

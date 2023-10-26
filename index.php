@@ -23,7 +23,6 @@
             padding: 15px 50px;
             margin: -0.6%;
             top: 0;
-            height: 62.328;
         }
         .header button{
             color: white;
@@ -193,7 +192,8 @@
         <div class="header">
                 <button id="index" class="title" class="btn_l"
                 onclick="SendCart(id)" type="submit" form="frm_cart"
-                style="padding-top: 18px;">
+                style="padding-top: 18px; margin-left: -12%">
+                <img src="media/title_icon.svg" height="5%" width="5%" style="padding-right: -10%"/>
                 <i><b>GAMERMEL[]N</b></i></a></button>
             <div class="btn_r">
                 <button id="games" onclick="SendCart(id)" type="submit" form="frm_cart" style="padding-top: 18px;">Games</button>
@@ -276,7 +276,7 @@
                 <div class="slide-desc">Have a nice stay<br><br>
                 HORROR // MANAGEMENT<br><br>
                 In this  game, you control a recepcionist from a hotel.
-                Welcoming the customers, you will have weird enconters
+                Welcoming the customers, you will have weird encounters
                 in the late night and it's your job to ensure they will
                 all have a nice stay.<br>
             <img src="media/have_a_nice_stay.png" height="70px" width="110px" style="padding: 5px; padding-top: 15px;">

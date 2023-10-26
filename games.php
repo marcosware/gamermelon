@@ -125,9 +125,10 @@
     <body>
         <header>
         <div class="header">
-                <button id="index" class="title" class="btn_l"
+        <button id="index" class="title" class="btn_l"
                 onclick="SendCart(id)" type="submit" form="frm_cart"
-                style="padding-top: 18px;">
+                style="padding-top: 18px; margin-left: -12%">
+                <img src="media/title_icon.svg" height="5%" width="5%" style="padding-right: -10%"/>
                 <i><b>GAMERMEL[]N</b></i></a></button>
             <div class="btn_r">
             <button id="games" onclick="SendCart(id)" type="submit" form="frm_cart" style="padding-top: 18px;">Games</button>
@@ -270,13 +271,13 @@
         }
         window.onload = function backSeeds() {
             var i = 0;
-            for (i = 0; i < 65; i++) {
+            for (i = 0; i < 38; i++) {
             document.getElementById("div_seed").innerHTML =
             document.getElementById("div_seed").innerHTML +
             "<img src=\"media/seed.svg\" id=\"seed_" + i + "\"/>";
             };
             i = 0;
-            for (i = 0; i < 65; i++) {
+            for (i = 0; i < 38; i++) {
                 var test_seed = document.getElementById("seed_"+i);
                 var rotation_test = document.getElementById("seed_"+i).style.transform = "rotate("+Math.random() * 360+"deg)";
                 var top_text = document.getElementById("seed_"+i).style.top = Math.random() * 360 +"px";

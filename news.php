@@ -120,9 +120,10 @@
     <body>
         <header>
         <div class="header">
-                <button id="index" class="title" class="btn_l"
+        <button id="index" class="title" class="btn_l"
                 onclick="SendCart(id)" type="submit" form="frm_cart"
-                style="padding-top: 18px;">
+                style="padding-top: 18px; margin-left: -12%">
+                <img src="media/title_icon.svg" height="5%" width="5%" style="padding-right: -10%"/>
                 <i><b>GAMERMEL[]N</b></i></a></button>
             <div class="btn_r">
             <button id="games" onclick="SendCart(id)" type="submit" form="frm_cart" style="padding-top: 18px;">Games</button>
@@ -153,23 +154,24 @@
                 <div class="news-index">
                     <div class="news-lesser-title">17/10/2023 - Softwares are now available!</div>
                     <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MODEPUTER released it's new Software shop.
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GAMERMELON released it's new Software shop.
                     You can visit the category now and check the new exclusives
                     softwares right now. It contains a variety of differents types of
-                    softwares that can be easily filtered with our Tags options.
+                    softwares which will be easily filtered with our coming Tags options.
                     Create magnum opus with Paintception and beautiful songs with Faural!
                     Enjoy!
                     </p>
                 </div><br>
                 <div class="news-index">
-                <div class="news-lesser-title">03/10/2023 - Creation & Inauguration of Modeputer.</div>
+                <div class="news-lesser-title">03/10/2023 - Creation of Gamermelon.</div>
                 <br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's with a lot of pleasure that it's declared the inauguration of Modeputer!
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's with a lot of pleasure that it's declared the creation of GAMERMELON!
                 A digital video game and software distribution/commerce service and community.<br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For now, our services include the purchase of games and softwares where
                 they will be maintained in the user's virtual library.<br>
                 Alongside with that, with a account, the user can access the community and create
                 and share posts, chat with friends and participate in events. 
+                It's still on development stage and 
                 </div>
         </div>
         <form id="frm_cart" method="POST">  

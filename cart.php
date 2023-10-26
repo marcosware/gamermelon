@@ -115,9 +115,10 @@
     <body>
         <header>
         <div class="header">
-                <button id="index" class="title" class="btn_l"
+        <button id="index" class="title" class="btn_l"
                 onclick="SendCart(id)" type="submit" form="frm_cart"
-                style="padding-top: 18px;">
+                style="padding-top: 18px; margin-left: -12%">
+                <img src="media/title_icon.svg" height="5%" width="5%" style="padding-right: -10%"/>
                 <i><b>GAMERMEL[]N</b></i></a></button>
             <div class="btn_r">
             <button id="games" onclick="SendCart(id)" type="submit" form="frm_cart" style="padding-top: 18px;">Games</button>
