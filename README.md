@@ -1,4 +1,3 @@
 # gamermelon
-Gamermelon is a one-week course project which simulates an e-commerce website that sells games and softwares.
-Every code and art (with the exception of the fonts) was made by me.
-Additional updates may come.
+Gamermelon is an one-week project which simulates an online store that sells games and softwares.
+Developed during my vocational education web development course at SENAI.
